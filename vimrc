@@ -29,8 +29,10 @@ vmap <Leader>p "+p
 vmap <Leader>P "+P
 
 " window navigation
-nnoremap a <c-w>
-nnoremap aa <c-w><c-w>
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
 
 " customizations for ctrl p
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
