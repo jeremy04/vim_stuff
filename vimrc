@@ -29,11 +29,11 @@ vmap <Leader>p "+p
 vmap <Leader>P "+P
 
 " window navigation
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-h> <C-W>h
-map <C-l> <C-W>l
-
+noremap <leader>h :wincmd h<CR>
+noremap <leader>j :wincmd j<CR>
+noremap <leader>k :wincmd k<CR>
+noremap <leader>l :wincmd l<CR>
+"
 " customizations for ctrl p
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 let g:ctrlp_custom_ignore = {
@@ -43,7 +43,6 @@ let g:ctrlp_custom_ignore = {
 
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 " nerdtree 
