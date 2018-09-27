@@ -76,7 +76,7 @@ nmap <S-Tab> :bprev <CR>
 noremap <Leader>b :BuffergatorToggle<CR>
 
 "" NerdCommenter
-map <Leader>[ <Plug>NERDCommenterToggle('n', 'Toggle')<CR>
+map <Leader>[ <Plug>NERDCommenterToggle<CR>
 
 "close the buffer
 noremap <Leader>c :bdelete<CR>
